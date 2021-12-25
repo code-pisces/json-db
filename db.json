@@ -1,0 +1,82 @@
+{
+  "menus": {
+    "dropdown": [
+      { "id": 26, "title": "Prazos de Anúncios", "to": "#" },
+      { "id": 27, "title": "Modelos de Anúncios", "to": "#" },
+      { "id": 28, "title": "Modelos de Emails", "to": "#" },
+      { "id": 29, "title": "Catálogo de Parceiros", "to": "#" },
+      { "id": 30, "title": "Termos de Uso", "to": "#" },
+      { "id": 31, "title": "Política de Privacidade", "to": "#" }
+    ],
+    "sidebar": [
+      { "title": "Dashboard", "id": 1, "to": "/", "icon": "dashboard.svg" },
+      {
+        "title": "Cadastros",
+        "id": 5,
+        "icon": "dashboard.svg",
+        "options": [
+          { "title": "Anunciantes", "to": "#", "id": 6 },
+          { "title": "Candidatos", "to": "#", "id": 7 },
+          { "title": "Solicitantes", "to": "#", "id": 8 },
+          { "title": "Afiliados", "to": "#", "id": 9 },
+          { "title": "Parceiros", "to": "#", "id": 10 },
+          { "title": "Planos", "to": "#", "id": 11 },
+          { "title": "Cargos", "to": "/cadastros/cargos", "id": 12 }
+        ]
+      },
+      {
+        "title": "Faturamento",
+        "id": 13,
+        "icon": "dashboard.svg",
+        "options": [
+          { "title": "Pedidos", "to": "#", "id": 14 },
+          { "title": "Faturas", "to": "#", "id": 15 },
+          { "title": "Nota Fiscal", "to": "#", "id": 16 },
+          { "title": "Solicitantes", "to": "#", "id": 17 }
+        ]
+      },
+      {
+        "title": "Comissões",
+        "id": 18,
+        "icon": "dashboard.svg",
+        "options": [
+          { "title": "Solicitadas", "to": "#", "id": 19 },
+          { "title": "Quitadas", "to": "#", "id": 20 },
+          { "title": "Pendentes", "to": "#", "id": 21 }
+        ]
+      },
+      {
+        "title": "Notificações",
+        "icon": "dashboard.svg",
+        "id": 22,
+        "options": [
+          { "title": "Cadastro", "to": "#", "id": 23 },
+          { "title": "Autorizações", "to": "#", "id": 24 }
+        ]
+      },
+      { "title": "Catálogo", "id": 25, "to": "#", "icon": "dashboard.svg" }
+    ]
+  },
+  "cargos": [
+    {
+      "id": 30,
+      "title": "Vendedor",
+      "cbo": "12227-20",
+      "level_hierarchic": "Chefe",
+      "occupation_area": "Comércio",
+      "activities": "Vender no comércio",
+      "tags": ["vendas", "comércio"],
+      "active": false
+    },
+    {
+      "id": 31,
+      "title": "Vendedor de Portas",
+      "cbo": "12227-20",
+      "level_hierarchic": "Chefe",
+      "occupation_area": "Comércio",
+      "activities": "Vender no comércio",
+      "tags": ["vendas", "comércio", "portas"],
+      "active": true
+    }
+  ]
+}
