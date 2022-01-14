@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../volt-bootstrap-5-dashboard"
+		},
+		{
+			"path": "../temvagas-site"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
