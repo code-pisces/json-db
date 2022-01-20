@@ -20,7 +20,7 @@
           { "title": "Solicitantes", "to": "#", "id": 8 },
           { "title": "Afiliados", "to": "/cadastros/afiliados", "id": 9 },
           { "title": "Parceiros", "to": "#", "id": 10 },
-          { "title": "Planos", "to": "#", "id": 11 },
+          { "title": "Planos", "to": "/cadastros/planos", "id": 11 },
           { "title": "Cargos", "to": "/cadastros/cargos", "id": 12 }
         ]
       },
