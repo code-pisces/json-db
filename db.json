@@ -16,10 +16,10 @@
         "icon": "dashboard.svg",
         "options": [
           { "title": "Anunciantes", "to": "/cadastros/anunciantes", "id": 6 },
-          { "title": "Candidatos", "to": "#", "id": 7 },
-          { "title": "Solicitantes", "to": "#", "id": 8 },
+          { "title": "Candidatos", "to": "/cadastros/candidatos", "id": 7 },
+          { "title": "Solicitantes", "to": "/cadastros/solicitantes", "id": 8 },
           { "title": "Afiliados", "to": "/cadastros/afiliados", "id": 9 },
-          { "title": "Parceiros", "to": "#", "id": 10 },
+          { "title": "Parceiros", "to": "/cadastros/parceiros", "id": 10 },
           { "title": "Planos", "to": "/cadastros/planos", "id": 11 },
           { "title": "Cargos", "to": "/cadastros/cargos", "id": 12 }
         ]
@@ -29,10 +29,10 @@
         "id": 13,
         "icon": "dashboard.svg",
         "options": [
-          { "title": "Pedidos", "to": "#", "id": 14 },
-          { "title": "Faturas", "to": "#", "id": 15 },
-          { "title": "Nota Fiscal", "to": "#", "id": 16 },
-          { "title": "Solicitantes", "to": "#", "id": 17 }
+          { "title": "Pedidos", "to": "/faturamento/pedidos", "id": 14 },
+          { "title": "Faturas", "to": "/faturamento/faturas", "id": 15 },
+          { "title": "Nota Fiscal", "to": "/faturamento/nota-fiscal", "id": 16 },
+          { "title": "Solicitantes", "to": "/faturamento/solicitantes", "id": 17 }
         ]
       },
       {
